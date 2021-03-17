@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("ImgRefont/TexturePaper.png");
+    background: url("ImgRefont/TexturePaper.webp");
     background-size: 280px 280px;
 }
 
@@ -810,19 +810,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("ImgRefont/DotsBG.png");
+    background-image: url("ImgRefont/DotsBG.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("ImgRefont/LinesH2BG.png");
+    background-image: url("ImgRefont/LinesH2BG.webp");
 }
 
 .bg-banniere {
-    background-image: url("ImgRefont/LaChouetteAgenceBanniere.jpg");
+    background-image: url("ImgRefont/LaChouetteAgenceBanniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("ImgRefont/ImageDePresentation.jpg");
+    background-image: url("ImgRefont/ImageDePresentation.webp");
 }
 
 @media (max-width: 1024px) {
