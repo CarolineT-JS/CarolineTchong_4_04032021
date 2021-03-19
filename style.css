@@ -6,19 +6,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/* Modifications */
 
-/* Modifications */
-
-h2{
-width: 60%;
-text-align: center;
-margin: 0 auto;
+#bloc-8 > div > div > div > div:nth-child(3) a{
+    font-size: 18px;
+    padding: 15px 0;
 }
 
-#bloc-4-portfolio > div > div:nth-child(1) > div > h2{width: 45%;}
-
-/* Fin des modifications*/
-
+/* Fin de modifications */
 a,
 button {
     transition: all .3s ease-in-out;
