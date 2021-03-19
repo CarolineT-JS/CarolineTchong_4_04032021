@@ -6,14 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-/* Modifications */
 
-#bloc-8 > div > div > div > div:nth-child(3) a{
-    font-size: 18px;
-    padding: 15px 0;
-}
-
-/* Fin de modifications */
 a,
 button {
     transition: all .3s ease-in-out;
