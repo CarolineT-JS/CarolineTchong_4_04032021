@@ -15,7 +15,13 @@ body {
     display: flex;
     margin-left: 0;
 }
-
+#bloc-8 > div > div > div > div.row.row-no-gutters.social > h3{text-align: center;}
+#bloc-8 > div > div > div > div.row.row-no-gutters.social > div > div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#bloc-8 > div > div > div > div.row.row-no-gutters.social > div > div > a{text-decoration: none;}
 /*Fin de modifications*/
 a,
 button {
