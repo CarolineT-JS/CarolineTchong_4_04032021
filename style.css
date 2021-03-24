@@ -8,8 +8,13 @@ body {
 }
 /* Modifications */
 
-#bloc-8 > div > div > div > div > div > div > a{margin: 10px !important;}
-#bloc-8 > div > div > div > div {display: flex;}
+#bloc-8 > div > div > div > div > div > div > a{
+    margin: 10px !important;
+    text-align: center;}
+#bloc-8 > div > div > div > #p2 {
+    display: flex;
+    margin-left: 0;
+}
 
 /*Fin de modifications*/
 a,
