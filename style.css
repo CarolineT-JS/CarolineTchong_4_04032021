@@ -6,7 +6,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/* Modifications */
 
+#bloc-8 > div > div > div > div > div > div > a{margin: 10px !important;}
+#bloc-8 > div > div > div > div {display: flex;}
+
+/*Fin de modifications*/
 a,
 button {
     transition: all .3s ease-in-out;
