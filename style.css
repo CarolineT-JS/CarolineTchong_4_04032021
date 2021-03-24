@@ -10,7 +10,15 @@ body {
 
 #bloc-8 > div > div > div > div > div > div > a{
     margin: 10px !important;
-    text-align: center;}
+    text-align: center;
+    text-decoration: none;
+}
+#bloc-8 > div > div > div > div.row.row-no-gutters.social > p, #bloc-8 > div > div > div > div.row.row-no-gutters.social > div > div > a > p {
+    font-size: 1.2em;
+    color: black !important;
+}
+.social {max-width: 600px !important;}
+#p2 > p, #p2 > div > div > a > p {font-size: 0.8em !important;}
 #bloc-8 > div > div > div > #p2 {
     display: flex;
     margin-left: 0;
@@ -21,7 +29,7 @@ body {
     justify-content: center;
     text-align: center;
 }
-#bloc-8 > div > div > div > div.row.row-no-gutters.social > div > div > a{text-decoration: none;}
+#bloc-8 > div > div > div > div.row.row-no-gutters.social > p {text-align: center;}
 /*Fin de modifications*/
 a,
 button {
