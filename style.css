@@ -45,6 +45,7 @@ h4{
 {color: black !important;}
 
 .tc-white {color: white !important;}
+.snapshot-lb .lightbox-caption {color: rgba(0, 0, 0, 1) !important;}
 
     /* title */
 
@@ -309,9 +310,7 @@ a:hover {
 }
 
 .d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
+
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
