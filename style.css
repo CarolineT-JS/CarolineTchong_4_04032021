@@ -7,30 +7,121 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 /* Modifications */
+    
+    /* Headers & taille des polices */
+
+.page-container, p {font-size: 16px !important;}
+h1{font-size: 20px !important;}
+h2{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px !important;
+}
+h3{font-size: 15px !important;}
+h4{
+    font-size: 22px !important;
+    line-height: 150% !important;
+}
+#bloc-4-portfolio > div > div:nth-child(1) > div > h2{width: 45% !important;}
+
+
+
+    /* Images */
+
+.texture-paper::before {background: url("ImgRefont/TexturePaper.webp") !important;}
+.bg-dots-bg {background-image: url("ImgRefont/DotsBG.webp") !important;}
+.bg-lines-h2-bg {background-image: url("ImgRefont/LinesH2BG.webp") !important;} 
+.bg-banniere {background-image: url("ImgRefont/LaChouetteAgenceBanniere.webp") !important;}
+.bg-presentation {background-image: url("ImgRefont/ImageDePresentation.webp") !important;}
+
+    /* Taille des polices */
+
+.page-container, p {font-size: 16px !important;}
+
+    /* Contraste */
+
+#bloc-6 > div > div > div > h1, #bloc-6 > div > div > div > p, .d-bloc, .d-bloc p a, a, #bloc-8 > div > div > div > p, .btn-atomic-tangerine
+{color: black !important;}
+
+.tc-white {color: white !important;}
+
+    /* title */
+
+#bloc-2-services > div > div:nth-child(1) > div > h2{
+    width: 60% !important;
+    text-align: center !important;
+    padding: 13px 0 11px 0 !important;
+    margin: 0 auto !important;
+}
+
+    /* Citation */
+
+#bloc-2-services > div > div.row.voffset-lg.voffset > div > q{
+    font-size: 1.4em !important;
+    font-style: italic;
+    color: rgb(77, 75, 75);
+}
+#bloc-2-services > div > div.row.voffset-lg.voffset > div > cite{
+    font-size: 1.2em;
+    color: rgb(95, 95, 95);
+    font-style: normal;
+}
+#bloc-2-services > div > div.row.voffset-lg.voffset > div{
+    width: 55% !important;
+    margin-left: 23% !important;
+}
+#bloc-2-services > div{
+    margin: 0 auto !important;
+}
+
+    /* title2 */
+
+#bloc-4-portfolio > div > div:nth-child(1) > div > h2{
+    width: 45% !important;
+    margin: 0 auto !important;
+}
+
+    /*Liens au footer*/
+
+#bloc-8 > div > div > div > div:nth-child(3) a{
+    font-size: 18px !important;
+    padding: 15px 0 !important;
+}
+
+    /* Réseaux sociaux */
 
 #bloc-8 > div > div > div > div > div > div > a{
     margin: 10px !important;
-    text-align: center;
-    text-decoration: none;
+    text-align: center  !important;
+    text-decoration: none !important;
 }
 #bloc-8 > div > div > div > div.row.row-no-gutters.social > p, #bloc-8 > div > div > div > div.row.row-no-gutters.social > div > div > a > p {
     font-size: 1.2em;
     color: black !important;
 }
 .social {max-width: 600px !important;}
+#p2 > p {width: 100%;}
 #p2 > p, #p2 > div > div > a > p {font-size: 0.8em !important;}
 #bloc-8 > div > div > div > #p2 {
-    display: flex;
-    margin-left: 0;
+    display: flex !important;
+    margin-left: 0 !important;
 }
-#bloc-8 > div > div > div > div.row.row-no-gutters.social > h3{text-align: center;}
+#bloc-8 > div > div > div > div.row.row-no-gutters.social > h3{text-align: center !important;}
 #bloc-8 > div > div > div > div.row.row-no-gutters.social > div > div{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
 }
-#bloc-8 > div > div > div > div.row.row-no-gutters.social > p {text-align: center;}
+#bloc-8 > div > div > div > div.row.row-no-gutters.social > p {text-align: center !important;}
+#bloc-8 > div > div > div > div:nth-child(3){margin: 20px !important;}
+#bloc-8 > div > div > div > div:nth-child(3) > div > h3{margin: 30px;}
+
+
 /*Fin de modifications*/
+
+
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -675,7 +766,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+
 }
 
 .container {
@@ -716,7 +807,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -798,13 +889,9 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
